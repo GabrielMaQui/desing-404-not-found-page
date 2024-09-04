@@ -1,62 +1,57 @@
 /* Body Styling */
 body {
-  background-color: #f7f7f7;
-  color: #333333;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
   font-family: 'Space Mono', monospace;
-  position: relative;
 }
+
 
 /* Container */
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
+  padding: 7em 0;
+  margin: 0 auto;
+  width: 100%;
 }
 
 /* Image Styling */
-.scarecrow img {
-  width: 100%;
-  max-width: 400px;
+.scarecrow {
+  width: 40%;
+  float: left;
+  margin: 0px 40px 10px 40px;
 }
 
 /* Text Styling */
 .text {
-  margin-top: 20px;
+  max-width: 95%;
 }
 
 /* Header Text Styling */
 .header-text {
   position: absolute;
-  top: 20px;
-  left: 30px;
-  font-size: 24px;
-  font-weight: 500;
+  top: 30px;
+  left: 40px;
+  font-size: 25px;
+  font-weight: 1000;
   color: #333333;
+
 }
 
 .text h2 {
-  font-size: 36px;
-  font-weight: 500;
+  font-size: 70px;
+  font-weight: 2000;
   margin-top: 10px;
   color: #333333;
 }
 
 .text p {
-  font-size: 18px;
-  margin-top: 20px;
+  font-size: 30px;
+  margin-top: 60px;
+  margin-right: 7em;
   color: #4F4F4F;
 }
 
 .button {
   display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
+  margin-top: 60px;
+  padding: 20px 30px;
   background-color: #333333;
   color: #fff;
   text-decoration: none;
@@ -69,21 +64,9 @@ body {
   background-color: #555555;
 }
 
-/* Responsive Design */
-@media screen and (min-width: 768px) {
-  .container {
-      flex-direction: row;
-      justify-content: space-between;
-      max-width: 1440px;
-      margin: auto;
-  }
-
-  .text {
-      text-align: left;
-      margin-left: 20px;
-  }
-
-  .scarecrow img {
-      max-width: 600px;
-  }
+footer{
+  text-align: center;
 }
+
+
+
