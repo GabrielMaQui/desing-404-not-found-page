@@ -68,5 +68,41 @@ footer{
   text-align: center;
 }
 
+/* Media query for screens 375px or less */
+@media (max-width: 376px) {
+  .scarecrow {
+    width: 100%;
+    margin: 0px 40px 40px 0px;
+  }
+  .header-text {
+    font-size: 16px;
+  }
+
+  .text {
+    padding: 2em 1em;
+    margin: 0 auto;
+  }
+
+  .text h2 {
+
+    font-size: 40px;
+
+  }
+
+  .text p {
+    margin-right: 0em;
+    font-size: 18px;
+  }
+
+  .button {
+    padding: 20px 50px;
+    font-size: 14px;
+  }
+
+  .copyright{
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+}
 
 
