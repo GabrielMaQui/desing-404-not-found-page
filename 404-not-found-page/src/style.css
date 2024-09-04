@@ -1,10 +1,3 @@
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 /* Body Styling */
 body {
   background-color: #f7f7f7;
@@ -14,6 +7,7 @@ body {
   justify-content: center;
   height: 100vh;
   font-family: 'Space Mono', monospace;
+  position: relative;
 }
 
 /* Container */
@@ -36,7 +30,11 @@ body {
   margin-top: 20px;
 }
 
-.text h1 {
+/* Header Text Styling */
+.header-text {
+  position: absolute;
+  top: 20px;
+  left: 30px;
   font-size: 24px;
   font-weight: 500;
   color: #333333;
